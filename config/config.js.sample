@@ -34,7 +34,26 @@ var config = {
 		},
 		{
 			module: 'compliments',
-			position: 'bottom_bar'
+			position: 'bottom_bar',
+			config: {
+			compliments: {
+				morning: [
+				    'Good morning, Nice Weight Gain!',
+				    'Nice Day!',
+				    'U mad?'
+				],
+				afternoon: [
+				    'Nice Weight Gain!',
+				    'Awsm!',
+				    'Today!'
+				],
+				evening: [
+				    'Was kuckst du!?',
+				    'Ha, so eingebildet!',
+				    'Pipapo!'
+				]
+			}
+}
 		},
 		{
 			module: 'currentweather',
