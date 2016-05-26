@@ -38,6 +38,7 @@ var config = {
 			config: {
 			compliments: {
 				morning: [
+				    'Nice, just have for fun!',
 				    'Good morning, Nice Weight Gain!',
 				    'Nice Day!',
 				    'U mad?'
@@ -45,12 +46,16 @@ var config = {
 				afternoon: [
 				    'Nice Weight Gain!',
 				    'Awsm!',
-				    'Today!'
+				    'Today!',
+				    'Nice Mirror!'
 				],
 				evening: [
 				    'Was kuckst du!?',
 				    'Ha, so eingebildet!',
-				    'Pipapo!'
+				    'Pipapo!',
+				    'OMG, blabla blub!',
+                		    'Superb! Dufte! Knorke!',
+                		    'Was isch los'
 				]
 			}
 }
