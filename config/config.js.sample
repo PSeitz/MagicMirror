@@ -21,20 +21,20 @@ var config = {
 		},
 		{
 			module: 'calendar',
-			header: 'US Holidays',
+			header: 'Feiertage',
 			position: 'top_left',
 			config: {
 				calendars: [
 					{
 						symbol: 'calendar-check-o ',
-						url: 'webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics'
+						url: 'http://www.ifeiertage.de/bw-s.ics'
 					}
 				]
 			}
 		},
 		{
 			module: 'compliments',
-			position: 'lower_third'
+			position: 'bottom_bar'
 		},
 		{
 			module: 'currentweather',
@@ -55,12 +55,12 @@ var config = {
 		},
 		{
 			module: 'newsfeed',
-			position: 'bottom_bar',
+			position: 'lower_third',
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "GameStar",
+						url: "http://www.gamestar.de/news/rss/news.rss"
 					}
 				],
 				showSourceTitle: true,
